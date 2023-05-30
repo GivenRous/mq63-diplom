@@ -105,6 +105,8 @@
 .trends {
   max-width: 1660px;
   margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .trends-header {
@@ -133,16 +135,92 @@
 }
 
 .trends-card {
-  background-image: url(../images/trend1.jpg);
-  width: calc((100% - 12px) / 4);
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  max-width: calc((100% - 12px) / 4);
+  height: 319px;
+  padding: 0 18px 18px;
+  display: flex;
+  align-items: flex-end;
 }
 
-.trends-card:nth-child(n+2) {
+.garden-card {
+  background-image: url(../images/trend1.jpg);
+}
+
+.cheese-card {
+  background-image: url(../images/trend2.jpg);
+}
+
+.travel-card {
+  background-image: url(../images/trend3.jpg);
+}
+
+.lemon-card {
+  background-image: url(../images/trend4.jpg);
+}
+
+.trends-card::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+.trends-card:nth-child(n + 2) {
   margin-left: 4px;
 }
 
 .text-card-container {
-  border: 3px solid #b59f5b;
+  border: 3px solid rgba(181, 159, 91, 0.6);
+  padding: 39px 0 37px 33px;
+}
+
+.card-tegs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card-tegs-item:not(:last-child) {
+  margin-right: 19px;
+}
+
+.card-tegs-link {
+  display: block;
+  font-family: open-sans-b, sans-serif;
+  color: #b59f5b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.card-tegs-item:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  margin-top: 5px;
+}
+
+.card-title-link {
+  font-family: open-sans-b;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.card-title-link:hover {
+  color: #b59f5b;
 }
 
 /*=======MAIN_ASIDE=======*/
