@@ -100,6 +100,51 @@
   line-height: 75px;
 }
 
+/*=======TRENDS=======*/
+
+.trends {
+  max-width: 1660px;
+  margin-top: 65px;
+}
+
+.trends-header {
+  margin: 0;
+  font-family: open-sans-b, sans-serif;
+  font-size: 20px;
+  color: #0f0d0e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.trends-header::after {
+  content: " ";
+  display: block;
+  width: 66px;
+  height: 3px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e1d9bd;
+}
+
+.card-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.trends-card {
+  background-image: url(../images/trend1.jpg);
+  width: calc((100% - 12px) / 4);
+}
+
+.trends-card:nth-child(n+2) {
+  margin-left: 4px;
+}
+
+.text-card-container {
+  border: 3px solid #b59f5b;
+}
+
 /*=======MAIN_ASIDE=======*/
 
 .main-container {
