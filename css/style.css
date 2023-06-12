@@ -985,11 +985,6 @@
     width: 158px;
   }
 
-  .header-intro {
-    font-size: 38px;
-    margin-top: 84px;
-  }
-
   .header-menu {
     display: none;
   }
@@ -1000,8 +995,9 @@
 
   .header-intro {
     max-width: 604px;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 55px;
+    margin-top: 84px;
   }
 
   .trends {
