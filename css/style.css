@@ -1314,7 +1314,6 @@
 
   .trends-card-container {
     flex-wrap: wrap;
-    padding: 26px 0px 17px 21px;
   }
 
   .trends-card {
@@ -1322,7 +1321,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 12px;
-    height: 233px;
+    height: 230px;
   }
 
   .trends-card:nth-child(1n + 2) {
@@ -1402,8 +1401,17 @@
     margin-top: 6px;
   }
 
+  .shop {
+    margin-bottom: 75px;
+  }
+
   .shop-card-container {
     flex-wrap: wrap;
+    padding: 33px 25px 0;
+  }
+
+  .shop-header {
+    font-size: 15px;
   }
 
   .shop-img {
@@ -1412,7 +1420,8 @@
   }
 
   .shop-title {
-    margin-top: 23px;
+    margin-top: 27px;
+    font-size: 16px;
   }
 
   .shop-card {
@@ -1420,11 +1429,13 @@
   }
 
   .shop-card:not(:first-child) {
-    margin-top: 55px;
+    margin-top: 47px;
   }
 
   .socials {
-    margin-bottom: 72px;
+    margin-bottom: 54px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .social-list {
@@ -1498,7 +1509,6 @@
   .trends-card-container {
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 26px 0px 17px 21px;
   }
 
   .trends-card {
@@ -1506,7 +1516,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 12px;
-    height: 233px;
+    height: 230px;
     max-width: calc((100% - 2px) / 2);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1589,8 +1599,17 @@
     margin-top: 6px;
   }
 
+  .shop {
+    margin-bottom: 75px;
+  }
+
   .shop-card-container {
     flex-wrap: wrap;
+    padding: 33px 25px 0;
+  }
+
+  .shop-header {
+    font-size: 15px;
   }
 
   .shop-img {
@@ -1599,7 +1618,8 @@
   }
 
   .shop-title {
-    margin-top: 23px;
+    margin-top: 27px;
+    font-size: 16px;
   }
 
   .shop-card {
@@ -1607,11 +1627,13 @@
   }
 
   .shop-card:not(:first-child) {
-    margin-top: 55px;
+    margin-top: 47px;
   }
 
   .socials {
-    margin-bottom: 72px;
+    margin-bottom: 54px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .social-list {
