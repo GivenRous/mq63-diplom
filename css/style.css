@@ -1019,7 +1019,8 @@
     max-width: calc((100% - 2px) / 2);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 247px;
+    height: 0;
+    min-height: 247px;
   }
 
   .trends-card:nth-child(n + 2) {
@@ -1168,7 +1169,7 @@
   }
 
   .trends-card {
-    height: 247px;
+    min-height: 247px;
   }
 
   .card-title-link {
@@ -1321,7 +1322,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 12px;
-    height: 230px;
+    height: 233px;
   }
 
   .trends-card:nth-child(1n + 2) {
@@ -1401,17 +1402,8 @@
     margin-top: 6px;
   }
 
-  .shop {
-    margin-bottom: 75px;
-  }
-
   .shop-card-container {
     flex-wrap: wrap;
-    padding: 33px 25px 0;
-  }
-
-  .shop-header {
-    font-size: 15px;
   }
 
   .shop-img {
@@ -1420,8 +1412,7 @@
   }
 
   .shop-title {
-    margin-top: 27px;
-    font-size: 16px;
+    margin-top: 23px;
   }
 
   .shop-card {
@@ -1429,17 +1420,15 @@
   }
 
   .shop-card:not(:first-child) {
-    margin-top: 47px;
+    margin-top: 55px;
   }
 
   .socials {
-    margin-bottom: 54px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 72px;
   }
 
   .social-list {
-    padding: 3px 0;
+    padding: 19px 0;
   }
 
   .popup-form {
@@ -1516,7 +1505,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 12px;
-    height: 230px;
+    height: 233px;
     max-width: calc((100% - 2px) / 2);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1528,10 +1517,6 @@
 
   .trends-card:nth-child(n + 3) {
     margin-top: 3px;
-  }
-
-  .trends-card:not(:first-child) {
-    margin-top: 0;
   }
 
   .card-title-link {
@@ -1599,17 +1584,8 @@
     margin-top: 6px;
   }
 
-  .shop {
-    margin-bottom: 75px;
-  }
-
   .shop-card-container {
     flex-wrap: wrap;
-    padding: 33px 25px 0;
-  }
-
-  .shop-header {
-    font-size: 15px;
   }
 
   .shop-img {
@@ -1618,8 +1594,7 @@
   }
 
   .shop-title {
-    margin-top: 27px;
-    font-size: 16px;
+    margin-top: 23px;
   }
 
   .shop-card {
@@ -1627,17 +1602,15 @@
   }
 
   .shop-card:not(:first-child) {
-    margin-top: 47px;
+    margin-top: 55px;
   }
 
   .socials {
-    margin-bottom: 54px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 72px;
   }
 
   .social-list {
-    padding: 3px 0;
+    padding: 19px 0;
   }
 
   .popup-form {
