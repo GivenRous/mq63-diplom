@@ -37,10 +37,12 @@
           </ul>
         </nav>
       </div>
-      <a class="logo-mobile" href="#0"><img src="svg/noemi-logo.svg" alt="логотип НОЭМИ" /></a>
+      <a class="logo-mobile" href="#0"
+        ><img src="svg/noemi-logo.svg" alt="логотип НОЭМИ"
+      /></a>
       <h1 class="header-intro">блог о творчестве, спорте, и образе жизни</h1>
     </header>
-    <article class="trends">
+    <aside class="trends">
       <h2 class="trends-header">сейчас в тренде</h2>
       <div class="trends-card-container">
         <section class="trends-card garden-card">
@@ -109,7 +111,7 @@
           </div>
         </section>
       </div>
-    </article>
+    </aside>
     <div class="main-container container-center">
       <main class="news">
         <article class="news-article">
@@ -459,11 +461,25 @@
       <h2 class="shop-header">наши изделия</h2>
       <div class="shop-card-container">
         <section class="shop-card">
-          <img
-            class="shop-img"
-            src="images/shop-item-desk1.jpg"
-            alt="подушка с принтом"
-          />
+          <picture class="shop-img">
+            <source
+              media="(min-width: 1201px)"
+              srcset="images/shop-item-desk1.jpg"
+            />
+            <source
+              media="((max-width: 1200px) and (min-width: 641px))"
+              srcset="images/shop-item-tablet1.jpg"
+            />
+            <source
+              media="(max-width: 640px)"
+              srcset="images/shop-item-mobile1.jpg"
+            />
+            <img
+              class="shop-img"
+              src="images/shop-item-desk1.jpg"
+              alt="подушка с принтом"
+            />
+          </picture>
           <div class="shop-description">
             <h3 class="shop-title">подушки на диван</h3>
             <p class="shop-text">
@@ -475,18 +491,30 @@
                 <span class="old-price">1000 ₽</span>
                 <span class="new-price">800 ₽</span>
               </div>
-              <button class="shop-button" alt="кнопка в магазин">
-                в магазин
-              </button>
+              <a class="shop-button" alt="кнопка в магазин"> в магазин </a>
             </div>
           </div>
         </section>
         <section class="shop-card">
-          <img
-            class="shop-img"
-            src="images/shop-item-desk2.jpg"
-            alt="книги и кукла"
-          />
+          <picture class="shop-img">
+            <source
+              media="(min-width: 1201px)"
+              srcset="images/shop-item-desk2.jpg"
+            />
+            <source
+              media="((max-width: 1200px) and (min-width: 641px))"
+              srcset="images/shop-item-tablet2.jpg"
+            />
+            <source
+              media="(max-width: 640px)"
+              srcset="images/shop-item-mobile2.jpg"
+            />
+            <img
+              class="shop-img"
+              src="images/shop-item-desk2.jpg"
+              alt="книги и кукла"
+            />
+          </picture>
           <div class="shop-description">
             <h3 class="shop-title">кукла "зайчик"</h3>
             <p class="shop-text">
@@ -499,18 +527,30 @@
                 <span class="old-price"></span>
                 <span class="new-price">3500 ₽</span>
               </div>
-              <button class="shop-button" alt="кнопка в магазин">
-                в магазин
-              </button>
+              <a class="shop-button" alt="кнопка в магазин"> в магазин </a>
             </div>
           </div>
         </section>
         <section class="shop-card">
-          <img
-            class="shop-img"
-            src="images/shop-item-desk3.jpg"
-            alt="элементы декора"
-          />
+          <picture class="shop-img">
+            <source
+              media="(min-width: 1201px)"
+              srcset="images/shop-item-desk3.jpg"
+            />
+            <source
+              media="((max-width: 1200px) and (min-width: 641px))"
+              srcset="images/shop-item-tablet3.jpg"
+            />
+            <source
+              media="(max-width: 640px)"
+              srcset="images/shop-item-mobile3.jpg"
+            />
+            <img
+              class="shop-img"
+              src="images/shop-item-desk3.jpg"
+              alt="элементы декора"
+            />
+          </picture>
           <div class="shop-description">
             <h3 class="shop-title">шестиугольная рамка</h3>
             <p class="shop-text">
@@ -524,9 +564,7 @@
                 <span class="old-price">500 ₽</span>
                 <span class="new-price">400 ₽</span>
               </div>
-              <button class="shop-button" alt="кнопка в магазин">
-                в магазин
-              </button>
+              <a class="shop-button" alt="кнопка в магазин"> в магазин </a>
             </div>
           </div>
         </section>
